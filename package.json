@@ -1,0 +1,21 @@
+{
+  "name": "four-steps-from-javascript-to-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ."
+  },
+  "keywords": [],
+  "author": "Phil Nash <philnash@twilio.com> (https://philna.sh)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "superagent": "^6.1.0",
+    "twilio": "^3.49.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
