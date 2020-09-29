@@ -9,7 +9,7 @@ router.use(urlencoded({ extended: false }));
 
 router.post("/messages", async (req, res) => {
   const twiml = new MessagingResponse();
-  const message = await dadJoke(req.body.Body);
+  const message = await dadJoke();
   if (message) {
     twiml.message(message);
     res.type("text/xml").send(twiml.toString());
