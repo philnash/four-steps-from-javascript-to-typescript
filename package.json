@@ -13,9 +13,9 @@
   "dependencies": {
     "express": "^4.17.1",
     "superagent": "^6.1.0",
-    "twilio": "^3.49.3"
+    "twilio": "^3.56.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.7"
   }
 }
